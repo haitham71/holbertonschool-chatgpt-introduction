@@ -4,7 +4,7 @@ def print_board(board):
     for i, row in enumerate(board):
         print(" | ".join(row))
         if i < len(board) - 1:
-            print("-" * 5)
+            print("-" * 10)
 
 def check_winner(board):
     # Check rows
